@@ -25,5 +25,5 @@ output "virtual_machine_id" {
 
 output "storage_account_name" {
   description = "Name of the storage account"
-  value       = azurerm_storage_account.sa.name
+  value       = azurerm_storage_account.storage.name
 }
